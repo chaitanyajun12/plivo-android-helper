@@ -9,8 +9,4 @@ Example
 =======
 
 The example for making a call 
-
-    1. Just create an instance of `HttpFactory` class
-
-    <code> HttpFactory mHttp = new HttpFactory(AUTH_ID, AUTH_TOKEN); </code>
     
