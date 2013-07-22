@@ -18,10 +18,10 @@ The example for making a call
 2. Create a map of the parameters to be posted.
 
 
-    LinkedHashMap<String, String> params = new LinkedHashMap<String, String>();
+    `LinkedHashMap<String, String> params = new LinkedHashMap<String, String>();
     params.put(CallAttributes.FROM, FROM);
     params.put(CallAttributes.TO, TO);
-    params.put(CallAttributes.ANSWER_URL, ANSWER_URL);
+    params.put(CallAttributes.ANSWER_URL, ANSWER_URL);`
 
 3. Call the API in a thread. 
 
