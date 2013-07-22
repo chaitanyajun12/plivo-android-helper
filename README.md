@@ -8,5 +8,7 @@ plivo-android-helper Android SDK is just a wrapper on top of Plivo. At present t
 Example
 =======
 
-The example for making a call 
+The example for making a call can be found at this link
+
+https://github.com/chaitanyajun12/plivo-android-helper-example
     
