@@ -95,10 +95,10 @@ public class HttpFactory {
 	public CallResponse makeCall(Map<String, String> params)
 			throws AndroidClientException {
 
-		Log.d("plivosdk", params.get(CallAttributes.FROM));
+		/* Log.d("plivosdk", params.get(CallAttributes.FROM));
 		Log.d("plivosdk", params.get(CallAttributes.TO));
 		Log.d("plivosdk", params.get(CallAttributes.ANSWER_URL));
-		Log.d("", "Call URL: "+creds.getCallUri()); 
+		Log.d("", "Call URL: "+creds.getCallUri()); */
 		
 		CallAttributes.checkAttributes(params);
 		String response = postRequest(creds.getCallUri(), params);
