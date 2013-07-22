@@ -82,14 +82,15 @@ public class HttpFactory {
             throws IOException {
         
 		BufferedReader breader = new BufferedReader(new InputStreamReader(istream));
-        StringBuilder responseString = new StringBuilder();
-        String line = "";
-        while ((line = breader.readLine()) != null) {
-            responseString.append(line);
-        }
-        breader.close();
-        return responseString.toString();
-    }
+        	StringBuilder responseString = new StringBuilder();
+        	String line = "";
+        	while ((line = breader.readLine()) != null) {
+            		responseString.append(line);
+        	}
+        	
+        	breader.close();
+        	return responseString.toString();
+    	}
 
 	public CallResponse makeCall(Map<String, String> params)
 			throws AndroidClientException {
